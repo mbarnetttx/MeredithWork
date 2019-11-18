@@ -1,7 +1,26 @@
 body {
-	background-color: #ffffff
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-family: 'arial', 'helvetica neue', times, times new roman, serif; .
+	line-height: 150%;
+
+}
+
+title {
+	color: #4aaaa5
 }
 
 h1 {
-	color: #4aaaa5
+	color: #ffffff;
+	background-color: #4aaaa5;
+	margin: 0;
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'arial', 'helvetica neue', helvetica, sans-serif; .
+}
+
+.image  {
+	height: 200px;
+	width: 200px;
 }
