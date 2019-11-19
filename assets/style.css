@@ -20,10 +20,20 @@ h1 {
 
 h2 {
 	color: #4aaaa5;
+	text-align: left;
 }
 
 p, p2, p3 {
 	font-size: 24px;
+}
+
+.container {
+	width:  1500px;
+	height: 500px;
+	border: solid; #dddddd;
+	padding: 70px;
+	margin: 20px;
+	border-color: #dddddd
 }
 
 .image  {
@@ -36,11 +46,11 @@ p, p2, p3 {
 	width: 70%;
 	margin: 0;
 	float: right;
+	border: 5px;
 }
 
-.wrap {
-	height: 960px;
-	width: 960px
-	background-color: #ffffff;
 
-}
+
+
+
+
