@@ -11,7 +11,8 @@ body {
 h1 {
 	color: #ffffff;
 	background: #4aaaa5; 
-	float: left;	
+	float: left;
+	padding: 0px;	
 	
 
 }
@@ -72,12 +73,6 @@ p, p2, p3 {
 }
 
 .image {
-	height: 90px;
-	width: 200px;
-	
-}
-
-.image2 {
 	height: 200px;
 	width: 200px;
 	float: left;
