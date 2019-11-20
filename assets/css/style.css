@@ -8,21 +8,18 @@ body {
 }
 
 
+
 h1 {
-	color: #ffffff;
-	background: #4aaaa5; 
-	float: left;	
-	
-
-}
-
-h2 {
 	color: #4aaaa5;
 	text-align: left;
+	padding-left: 50px;
 }
+
+
 
 header {
 	background: #ffffff;
+	border-bottom: 4px solid #777777;
 
 }
 
@@ -32,9 +29,11 @@ header::after {
 	clear: both;
 }
 
+
 nav {
 	float: right;
 }
+
 
 nav ul {
 	margin: 0;
@@ -55,7 +54,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #000
+	color: #000;
 }
 
 
@@ -69,11 +68,17 @@ p, p2, p3 {
 	width: 80%;
 	margin: 0 auto;
 
+
+
+
 }
 
 .image {
-	height: 90px;
+	height: 70px;
 	width: 200px;
+	padding: 0;
+	margin: 0;
+
 	
 }
 
@@ -81,12 +86,15 @@ p, p2, p3 {
 	height: 200px;
 	width: 200px;
 	float: left;
+	padding: 50px; 
 }
 
 .main-bio {
 	width: 70%;
 	margin: 0;
 	float: right;
-	border: 5px;
+	
 }
+
+
 
