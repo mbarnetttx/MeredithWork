@@ -1,43 +1,55 @@
 body {
-	background-color: #ffffff;
+	background-color: #d3d3d3;
 	margin: 0;
 	padding: 0;
 	font-family: 'arial', 'helvetica neue', times, times new roman, serif; .
 	line-height: 150%;
+	text-align: justify;
 
 }
 
 
-
+/*get to know me text*/
 h1 {
 	color: #4aaaa5;
 	text-align: left;
-	padding-left: 50px;
+	
+}
+
+.containergettoknow {
+	border-bottom: 1px solid #777777;
+
+
 }
 
 
-
+/*nav bar and logo*/
 header {
 	background: #ffffff;
 	border-bottom: 4px solid #777777;
+	padding: none;
+	margin: none;
+
 
 }
 
-header::after {
-	content: '';
-	display: table;
-	clear: both;
-}
+/*bar at top of nav*/
+.topheader {
+	color: #333333;
+	height: 50px;
+	
 
+}
 
 nav {
 	float: right;
+	padding-right: 300px;
 }
 
 
 nav ul {
 	margin: 0;
-	padding-top: 0;
+	padding: 0;
 	list-style: none;
 }
 
@@ -45,6 +57,7 @@ nav li {
 	display: inline-block;
 	margin-left: 70px;
 	padding-top: 25px;
+
 }
 
 nav a {
@@ -64,7 +77,8 @@ p, p2, p3 {
 }
 
 
-.container {
+/*nav and logo*/
+.headercontainer {
 	width: 80%;
 	margin: 0 auto;
 
@@ -73,20 +87,28 @@ p, p2, p3 {
 
 }
 
+/*logo*/
 .image {
-	height: 70px;
-	width: 200px;
-	padding: 0;
+	height: 80px;
+	width: 220px;
+	
 	margin: 0;
+	padding-left: 280px;
+
+
 
 	
 }
 
+/*selfie*/
 .image2 {
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
 	float: left;
-	padding: 50px; 
+	padding-top: 30px;
+	padding-left: 0px; 
+	padding-right: 30px;
+	padding-bottom: 20px;
 }
 
 .main-bio {
@@ -97,4 +119,25 @@ p, p2, p3 {
 }
 
 
+/*get to know me, selfie, and bio*/
+.containermain {
+	
+	margin: 0 auto;
+	width: 960px;
+	background-color: #ffffff;
+	padding: 100px;
 
+
+	
+
+
+}
+
+
+.footer {
+	color: #4d4d4d;
+	height: 200px;
+	position: absolute;
+	bottom: 0%;
+	
+}
