@@ -5,6 +5,7 @@ body {
 	font-family: 'arial', 'helvetica neue', times, times new roman, serif; .
 	line-height: 150%;
 	text-align: justify;
+	height: 1000px;
 
 }
 
@@ -33,6 +34,7 @@ nav {
 	float: right;
 	padding-right: 300px;
 	padding-top: 25px;
+	
 	
 	
 	
@@ -73,10 +75,13 @@ p, p2, p3 {
 .headercontainer {
 	width: 100%;
 	margin: 0 auto;
-	display: block;
+	display: inline-block;
 	background: #ffffff;
 	border-bottom: 4px solid #777777;
 	padding: none;
+
+
+
 	
 
 
@@ -128,11 +133,26 @@ p, p2, p3 {
 
 }
 
-
-.footer {
-	color: #666666;
-	height: 100px;
-	position: absolute;
-	width: 100%;
-	
+.footercombo  {
+	height: 120px;
+	position: fixed;
 }
+
+#footerteal {
+	background-color: #4aaaa5;
+	height: 20px;
+	position: fixed;
+	bottom: 100px;
+	width: 100%;
+}
+
+#footer {
+	background-color: #666666;
+	height: 100px;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+}
+
+
+	
