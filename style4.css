@@ -27,13 +27,7 @@ h1 {
 
 
 
-/*bar at top of nav*/
-.topheader {
-	color: #333333;
-	height: 100px;
-	
 
-}
 
 nav {
 	float: right;
@@ -48,7 +42,7 @@ nav ul {
 }
 
 nav li {
-	display: block;
+	display: inline-block;
 	margin-left: 70px;
 	padding-top: 25px;
 
