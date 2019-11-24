@@ -1,5 +1,5 @@
 body {
-	background-color: #d3d3d3;
+	background-image: url(assets/images/herringbone.png);
 	margin: 0;
 	padding: 0;
 	font-family: 'arial', 'helvetica neue', times, times new roman, serif; .
@@ -32,6 +32,10 @@ h1 {
 nav {
 	float: right;
 	padding-right: 300px;
+	padding-top: 25px;
+	
+	
+	
 }
 
 
@@ -44,7 +48,7 @@ nav ul {
 nav li {
 	display: inline-block;
 	margin-left: 70px;
-	padding-top: 25px;
+	padding-top: 5px;
 
 }
 
@@ -116,7 +120,7 @@ p, p2, p3 {
 	margin: 0 auto;
 	width: 960px;
 	background-color: #ffffff;
-	padding: 100px;
+	padding: 50px;
 
 
 	
@@ -126,7 +130,7 @@ p, p2, p3 {
 
 
 .footer {
-	color: #4d4d4d;
+	color: #666666;
 	height: 100px;
 	position: absolute;
 	width: 100%;
