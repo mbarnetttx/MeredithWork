@@ -17,13 +17,6 @@ h1 {
 }
 
 
-/*gettoknowmeandborderbottom*/
-.containergettoknow {
-	border-bottom: 1px solid #777777;
-
-
-}
-
 
 
 
@@ -66,9 +59,7 @@ nav a:hover {
 
 
 
-p, p2, p3 {
-	font-size: 24px;
-}
+
 
 
 /*nav and logo*/
@@ -97,23 +88,7 @@ p, p2, p3 {
 	
 }
 
-/*selfie*/
-.image2 {
-	height: 300px;
-	width: 300px;
-	float: left;
-	padding-top: 30px;
-	padding-left: 0px; 
-	padding-right: 30px;
-	padding-bottom: 20px;
-}
 
-.main-bio {
-	width: 70%;
-	margin: 0;
-	float: right;
-	
-}
 
 
 /*get to know me, selfie, and bio*/

@@ -30,7 +30,7 @@ h1 {
 /*bar at top of nav*/
 .topheader {
 	color: #333333;
-	height: 50px;
+	height: 100px;
 	
 
 }
@@ -73,7 +73,7 @@ p, p2, p3 {
 
 /*nav and logo*/
 .headercontainer {
-	width: 5%;
+	width: 100%;
 	margin: 0 auto;
 	display: block;
 	background: #ffffff;
@@ -133,8 +133,8 @@ p, p2, p3 {
 
 .footer {
 	color: #4d4d4d;
-	height: 200px;
+	height: 100px;
 	position: absolute;
-	bottom: 0%;
+	width: 100%;
 	
 }

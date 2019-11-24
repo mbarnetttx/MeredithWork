@@ -1,0 +1,18 @@
+
+header {
+  background-color: #333333;
+  text-align: center;
+  height: 100px;
+
+
+}
+
+h1 {
+  color: #ffffff;
+
+}
+
+.image, .paragraph, .links  {
+
+  float: left;
+}
