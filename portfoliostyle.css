@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: arial; .
-	line-height: 195%;
+	line-height: 175%;
 	text-align: justify;
 	height: auto;
 	
@@ -16,8 +16,7 @@ h1 {
 	color: #4aaaa5;
 	text-align: left;
 	font-size: 28px;
-	letter-spacing: 1px;
-
+	letter-spacing: 2px;
 	
 }
 
@@ -26,6 +25,7 @@ h1 {
 .containergettoknow {
 	border-bottom: 1px solid #777777;
 	padding-top: -100px;
+	margin-bottom: 50px;
 
 
 }
@@ -120,14 +120,17 @@ header::after {
 }
 
 /*selfie*/
-.image2 {
+.box1 {
 	height: 300px;
 	width: 300px;
 	float: left;
 	padding-top: 30px;
 	padding-left: 0px; 
-	padding-right: 30px;
+	padding-right: 50px;
 	padding-bottom: 20px;
+	background-color: #666666;
+	margin-right: 50px;
+	margin-bottom: 50px;
 }
 
 main-bio {
@@ -176,5 +179,3 @@ main-bio {
 	
 }
 
-
-	
