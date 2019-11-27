@@ -141,8 +141,9 @@ header::after {
 	padding-right: 50px;
 	padding-bottom: 20px;
 	background-color: #666666;
-	margin-right: 50px;
+	margin-right: 0px;
 	margin-bottom: 50px;
+	margin-left: 50px;
 }
 
 .box2 {
@@ -180,8 +181,9 @@ header::after {
 	padding-right: 50px;
 	padding-bottom: 20px;
 	background-color: #666666;
-	margin-right: 50px;
+	margin-right: 0px;
 	margin-bottom: 50px;
+	margin-left: 50px;
 }
 
 
