@@ -119,9 +119,21 @@ header::after {
 	
 }
 
+/*get to know me, selfie, and bio*/
+.containermain {
+	
+	margin: 0 auto;
+	width: 960px;
+	height: 2000px;
+	background-color: #ffffff;
+	padding: 50px;
+	margin-bottom: 50px;
+	margin-top: 50px
+}
+
 /*selfie*/
 .box1 {
-	height: 300px;
+	height: 200px;
 	width: 300px;
 	float: left;
 	padding-top: 30px;
@@ -133,32 +145,21 @@ header::after {
 	margin-bottom: 50px;
 }
 
-main-bio {
-	width: 70%;
-	margin: 0;
+.box2 {
+	height: 200px;
+	width: 300px;
 	float: right;
-	font-size: 17px;
-
-	
-}
-
-
-/*get to know me, selfie, and bio*/
-.containermain {
-	
-	margin: 0 auto;
-	width: 960px;
-	background-color: #ffffff;
-	padding: 50px;
+	padding-top: 30px;
+	padding-left: 0px; 
+	padding-right: 50px;
+	padding-bottom: 20px;
+	background-color: #666666;
+	margin-right: 50px;
 	margin-bottom: 50px;
-	margin-top: 50px
-
-	
-
-	
-
-
 }
+
+	
+
 
 
 
