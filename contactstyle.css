@@ -124,71 +124,51 @@ header::after {
 	
 	margin: 0 auto;
 	width: 960px;
-	height: 800px;
+	height: 600px;
 	background-color: #ffffff;
 	padding: 50px;
 	margin-bottom: 50px;
 	margin-top: 50px
 }
 
-/*selfie*/
-.box1 {
-	height: 200px;
-	width: 300px;
-	float: left;
-	padding-top: 30px;
-	padding-left: 0px; 
-	padding-right: 50px;
-	padding-bottom: 20px;
-	background-color: #666666;
-	margin-right: 0px;
-	margin-bottom: 50px;
-	margin-left: 50px;
+/*got input form from https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.box2 {
-	height: 200px;
-	width: 300px;
-	float: right;
-	padding-top: 30px;
-	padding-left: 0px; 
-	padding-right: 50px;
-	padding-bottom: 20px;
-	background-color: #666666;
-	margin-right: 50px;
-	margin-bottom: 50px;
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.box3 {
-	height: 200px;
-	width: 300px;
-	float: right;
-	padding-top: 30px;
-	padding-left: 0px; 
-	padding-right: 50px;
-	padding-bottom: 20px;
-	background-color: #666666;
-	margin-right: 50px;
-	margin-bottom: 50px;
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
-.box4 {
-	height: 200px;
-	width: 300px;
-	float: left;
-	padding-top: 30px;
-	padding-left: 0px; 
-	padding-right: 50px;
-	padding-bottom: 20px;
-	background-color: #666666;
-	margin-right: 0px;
-	margin-bottom: 50px;
-	margin-left: 50px;
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
-
 
 	
-
 
 
 
