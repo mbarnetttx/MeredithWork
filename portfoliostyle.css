@@ -147,7 +147,7 @@ header::after {
 .box2 {
 	content: url(assets/images/512logo.jpg);
 	height: 200px;
-	width: 300px;
+	width: 320px;
 	float: right;
 ;
 	background-color: #666666;
@@ -157,8 +157,8 @@ header::after {
 
 .box3 {
 	content: url(assets/images/dtflogo.jpg);
-	height: 200px;
-	width: 300px;
+	height: 220px;
+	width: 320px;
 	float: left;
 
 	background-color: #666666;
@@ -167,8 +167,9 @@ header::after {
 }
 
 .box4 {
+	content: url(assets/images/indeedlogo.jpg);
 	height: 200px;
-	width: 300px;
+	width: 320px;
 	float: right;
 
 	background-color: #666666;
