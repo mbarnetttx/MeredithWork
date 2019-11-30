@@ -1,3 +1,5 @@
+
+
 body {
 	background-image: url(assets/images/herringbone.png);
 	margin: 0;
@@ -25,7 +27,7 @@ h1 {
 /*gettoknowmeandborderbottom*/
 .containergettoknow {
 	border-bottom: 1px solid #777777;
-	padding-top: -100px;
+	padding-top: -50px;
 
 
 }
@@ -116,6 +118,7 @@ header::after {
 
 
 
+
 	
 }
 
@@ -127,7 +130,7 @@ header::after {
 	padding-top: 30px;
 	padding-left: 0px; 
 	padding-right: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 main-bio {
@@ -146,9 +149,9 @@ main-bio {
 	margin: 0 auto;
 	width: 960px;
 	background-color: #ffffff;
-	padding: 50px;
+	padding: 20px;
 	margin-bottom: 50px;
-	margin-top: 50px
+	margin-top: 50px;
 
 	
 
