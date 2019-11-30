@@ -131,59 +131,50 @@ header::after {
 	margin-top: 50px
 }
 
-/*selfie*/
+
 .box1 {
+	content: url(assets/images/discologo.jpg);
 	height: 200px;
 	width: 300px;
 	float: left;
-	padding-top: 30px;
-	padding-left: 0px; 
-	padding-right: 50px;
-	padding-bottom: 20px;
+	
 	background-color: #666666;
 	margin-right: 0px;
 	margin-bottom: 50px;
-	margin-left: 50px;
+	margin-left: 120px;
 }
 
 .box2 {
+	content: url(assets/images/512logo.jpg);
 	height: 200px;
 	width: 300px;
 	float: right;
-	padding-top: 30px;
-	padding-left: 0px; 
-	padding-right: 50px;
-	padding-bottom: 20px;
+;
 	background-color: #666666;
-	margin-right: 50px;
+	margin-right: 120px;
 	margin-bottom: 50px;
 }
 
 .box3 {
+	content: url(assets/images/dtflogo.jpg);
 	height: 200px;
 	width: 300px;
-	float: right;
-	padding-top: 30px;
-	padding-left: 0px; 
-	padding-right: 50px;
-	padding-bottom: 20px;
+	float: left;
+
 	background-color: #666666;
-	margin-right: 50px;
-	margin-bottom: 50px;
+	margin-right: 0px;
+	margin-left: 120px;
 }
 
 .box4 {
 	height: 200px;
 	width: 300px;
-	float: left;
-	padding-top: 30px;
-	padding-left: 0px; 
-	padding-right: 50px;
-	padding-bottom: 20px;
+	float: right;
+
 	background-color: #666666;
-	margin-right: 0px;
-	margin-bottom: 50px;
-	margin-left: 50px;
+	margin-right: 120px;
+	
+	margin-left: 0px;
 }
 
 
