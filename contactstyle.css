@@ -107,8 +107,9 @@ header::after {
 
 
 /*logo*/
-.image {
-	height: 80px;
+.boxlogo {
+	content: url(assets/images/namelogo.jpg);
+	height: 70px;
 	width: 220px;
 	float: left;
 	margin: 0;
