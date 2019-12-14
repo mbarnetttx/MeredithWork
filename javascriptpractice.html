@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+          <title> Here's a title </title>
+          <link rel="stylesheet" href="style.css">
+         
+
+</head>
+
+<body>
+
+<div class="header">
+
+          <h1>Learning Javascript</h1>
+
+           <p>With Meredith</p>
+
+</div>
+
+<div class="container">
+
+</div>
+
+<script>
+    
+    //NUMBER
+
+    var number1 = 35;
+    var number2 = 40;
+
+    alert(number1+number2)    
+    //no quotes = reads as number, will add numbers together, in this case, result will be 75
+
+
+    //STRING
+
+    var number1 = '35';
+    var number2 = '40';
+    //quotes = reads as string
+    //will read both numbers in order they are listed
+
+    alert(number1+number2);   //result will be 3540
+
+    alert('My Favorite Number is '+number1) //get a variable out of string, result will be 35
+
+    //Variables are case sensitive
+
+    //camel case = starts with lowercase letter then every word after will be capitalized
+    var myFavoriteNumber
+
+    //parial case = first word is also in uppercase
+    Var myFavoriteNumber
+
+
+    
+    //ARRAY
+    //stores multiple values in a variable
+
+    var colors = ['red', 'blue', 'green'];
+
+    alert(colors[1]);
+    //will return 'blue' as the alert
+
+    //to add to an array
+
+    colors.push('purple'); //.syntax
+
+    alert(colors[3])
+
+    var numbers = [5,77,6,43];  //no quotes = not a string
+
+    alert(numbers.length); //wil tell you how many numbers in array
+
+    alert(numbers.sort()); //will sort by value
+
+    alert(numbers.reverse()); //reversed order 
+
+    //LOOPS
+
+     //parameter/condition/increment
+        //  ++ means increment by 1
+
+
+    //FOR LOOP
+    for(var i = 0; i < 10; i++){
+        console.log(i)
+    }
+
+    //all numbers other than 10 will be presented in the console
+    //it won't show 10 because then the loop won't be true anymore
+    //you can to <= for less than or equal to and equivalants
+
+    //WHILE LOOP //this example will return all numbers other than 10 also
+    var i = 0;
+    while(i < 10){
+        console.log(i);
+        i++;
+    }
+
+    //FOREACH LOOP meant to be used with arrays //this one goes through whole array
+    var numbers = [33,54,76,34,2,6]
+    numbers.forEach(function(number){
+        consol.log(number);
+    }
+
+
+
+    //CONDITIONS
+    //one equals sign is an assignment, two == compare, === is when both data types match compare
+
+    var var1 = 3;
+    var var2 = 4;
+    if(var1 == var2){
+        console.log('this is true');
+    }
+
+    else {
+        console.log('this is false')
+    }
+
+    //in this case, it would come back as false because var1 is not = var2
+    //if(var1 != var2)  to check if not equal, then that would be true
+
+    //SWITCH STATEMENTS
+
+    var fruit = 'apple';  //will return 'I love apples'
+
+    switch(fruit){
+            case "banana":
+                alert('I hate bananas');
+                break;
+            case "apple":
+                alert('I love apples');    }
+                case "orange":
+            break;
+                alert('oranges are ok');
+                break;
+            default
+                alert('I love all other fruits');
+                break;
+
+    var person = {
+        firstName:'meredith',
+        lastName: 'barnett',
+        age: 29;
+        children: ['Sam', 'Ian']
+        address: {
+            street: '546 Somewhere', 
+            city: 'Noweverville',
+            state: 'CA'
+        }
+    }
+
+    console.log(person.age);  //will return 29
+    console.log(person.children[0]); //will return 'Sam'
+    console.log(person.address)  add .state etc for other 
+
+    fullname: function({
+        return this.firstName +" "+this.lastName
+    })
+
+
+
+    
+
+  //object
+
+
+     // VARIABLES
+      // =======================================================================================
+
+      // Various Arrays
+      var brands = ["Acer", "Apple", "Sony", "Samsung"];
+      var heroes = ["Black Panther", "Cyborg", "Black Canary", "Donna Troy", "Huntress", "Blue Beetle", "Captain Atom"];
+      var booksOnMyShelf = ["Calculus Early Transcendentals", "Ravens", "The Self Illusion", "Harry Potter"];
+      var thingsInFrontOfMe = ["Laptop", "Beanbag", "Cats", "Slippers"];
+      var howIFeel = ["Sleep Deprived", "Wired on Coffee", "Excited"];
+
+      // FUNCTIONS
+      // ========================================================================================
+
+      // Here we create a "Function" that allows us to "call" (run) the loop for any array we wish.
+      // We pass in an array as an "argument".
+      function consoleInside(arr) {
+
+        // We then loop through the selected array.
+        for (var i = 0; i < arr.length; i++) {
+
+          // Each time we print the value inside the array.
+          console.log(arr[i]);
+        }
+        console.log("---------");
+      }
+    // FUNCTION CALLS (Execution)
+      // =======================================================================================
+
+      // Here we call the function to run our for-loop code on each of the following arrays.
+      consoleInside(brands);
+      consoleInside(heroes);
+      consoleInside(booksOnMyShelf);
+      consoleInside(thingsInFrontOfMe);
+      consoleInside(howIFeel);
+
+
+</script>
+
+</body>
+</html>
